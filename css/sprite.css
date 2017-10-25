@@ -1,0 +1,90 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-envelope {
+  background-image: url(img/sprite.png);
+  background-position: -77px -64px;
+  width: 21px;
+  height: 17px;
+}
+.icon-facebok {
+  background-image: url(img/sprite.png);
+  background-position: -54px -76px;
+  width: 23px;
+  height: 23px;
+}
+.icon-girl {
+  background-image: url(img/sprite.png);
+  background-position: -77px -98px;
+  width: 16px;
+  height: 20px;
+}
+.icon-linkedin {
+  background-image: url(img/sprite.png);
+  background-position: -54px -53px;
+  width: 23px;
+  height: 23px;
+}
+.icon-location {
+  background-image: url(img/sprite.png);
+  background-position: -54px -25px;
+  width: 20px;
+  height: 28px;
+}
+.icon-open-book {
+  background-image: url(img/sprite.png);
+  background-position: -77px -81px;
+  width: 21px;
+  height: 17px;
+}
+.icon-pencil {
+  background-image: url(img/sprite.png);
+  background-position: -54px -99px;
+  width: 17px;
+  height: 17px;
+}
+.icon-phone {
+  background-image: url(img/sprite.png);
+  background-position: -77px 0px;
+  width: 23px;
+  height: 23px;
+}
+.icon-pin {
+  background-image: url(img/sprite.png);
+  background-position: 0px 0px;
+  width: 54px;
+  height: 120px;
+}
+.icon-skype {
+  background-image: url(img/sprite.png);
+  background-position: -77px -23px;
+  width: 22px;
+  height: 22px;
+}
+.icon-tools {
+  background-image: url(img/sprite.png);
+  background-position: -77px -45px;
+  width: 19px;
+  height: 19px;
+}
+.icon-user {
+  background-image: url(img/sprite.png);
+  background-position: -54px 0px;
+  width: 23px;
+  height: 25px;
+}
